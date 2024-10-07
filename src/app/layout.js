@@ -3,7 +3,7 @@ import "./globals.css";
 
 const comfortaa = localFont({
   src: "./fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf",
-  variable: "--font-comfotaa",
+  variable: "--font-comfortaa",
   weight: "100 900",
 });
 
@@ -15,7 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+      <body className={`${comfortaa.variable}`}>
         <nav className="mainNav">
           <ul className="name">
             <li>

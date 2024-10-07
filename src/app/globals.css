@@ -23,8 +23,8 @@ p {
   align-items: center;
   justify-content: space-between;
   background-color: #4cb77a;
-  padding-left: 5rem;
-  padding-right: 5rem;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
 }
 
 .mainNav ul {
@@ -34,14 +34,14 @@ p {
 }
 
 .mainNav .name li a {
-  font-size: 2rem;
+  font-size: 1.725rem;
 }
 
 .mainNav .links {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 15rem;
+  width: 15em;
 }
 
 .mainNav .links li a {
@@ -54,4 +54,5 @@ p {
 
 .mainNav ul li a {
   color: #091710;
+  font-family: var(--font-comfortaa);
 }

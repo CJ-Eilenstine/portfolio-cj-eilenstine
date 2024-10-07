@@ -1,0 +1,37 @@
+.background {
+  height: 90vh;
+  /* background-color: black; */
+  background-image: url(../app/images/background.jpg);
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 4em;
+  padding-right: 4em;
+}
+
+.background .bio {
+  color: #fff;
+  width: 20em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.background .bio h1 {
+  font-family: var(--font-comfortaa);
+}
+
+.background .profilePic {
+  width: 20em;
+  height: 20em;
+  z-index: 100;
+  background-image: url(../app/images/profile-pic2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 50%;
+}
