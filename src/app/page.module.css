@@ -21,11 +21,11 @@
   flex-direction: column;
 }
 
-.background .bio h1 {
+.bio h1 {
   font-family: var(--font-comfortaa);
 }
 
-.background .profilePic {
+.profilePic {
   width: 20em;
   height: 20em;
   z-index: 100;
