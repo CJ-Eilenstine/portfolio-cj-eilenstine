@@ -33,18 +33,18 @@ p {
   justify-content: space-between;
 }
 
-.mainNav .name li a {
+.name li a {
   font-size: 1.725rem;
 }
 
-.mainNav .links {
+.links {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 15em;
 }
 
-.mainNav .links li a {
+.links li a {
   font-size: 1.25rem;
 }
 
