@@ -35,6 +35,7 @@ p {
 
 .name li a {
   font-size: 1.625rem;
+  text-decoration: none;
 }
 
 .name {
@@ -63,6 +64,7 @@ p {
 
 .links li a {
   font-size: 1.25rem;
+  text-decoration: none;
 }
 
 .mainNav ul li {

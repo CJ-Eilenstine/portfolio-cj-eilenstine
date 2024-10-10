@@ -19,15 +19,15 @@ export default function RootLayout({ children }) {
         <nav className="mainNav">
           <ul className="name">
             <li>
-              <a>CJ Eilenstine</a>
+              <a href="/">CJ Eilenstine</a>
             </li>
           </ul>
           <ul className="links">
             <li>
-              <a>Projects</a>
+              <a href="/projects">Projects</a>
             </li>
             <li>
-              <a>Contact</a>
+              <a href="/contact">Contact</a>
             </li>
           </ul>
         </nav>
