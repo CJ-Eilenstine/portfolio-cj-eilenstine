@@ -9,12 +9,13 @@ export default function Home() {
       <div className={styles.background}>
         <div className={styles.bio}>
           <h1>
-            Hello, my name is CJ Eilenstine and I am an aspiring web developer
-            and designer.
+            I am CJ Eilenstine, an aspiring web developer and designer. With
+            skills in back and front end development,
           </h1>
           <h1>
             I enjoy a multitude of hobbies such as gaming, bouldering, and
-            reading.
+            reading. I enjoy playing Elden Ring a lot and reading Brandon
+            Sanderson books.
           </h1>
         </div>
         <div className={styles.profilePic}></div>

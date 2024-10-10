@@ -18,7 +18,7 @@ p {
 }
 
 .mainNav {
-  height: 10vh;
+  height: 12vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -34,14 +34,31 @@ p {
 }
 
 .name li a {
-  font-size: 1.725rem;
+  font-size: 1.625rem;
+}
+
+.name {
+  transition: transform 0.3s ease;
+}
+
+.name:hover {
+  transform: scale(1.2);
 }
 
 .links {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 15em;
+  max-width: 15em;
+}
+
+.links li {
+  transition: transform 0.4s ease;
+  margin: 1em;
+}
+
+.links li:hover {
+  transform: scale(1.2);
 }
 
 .links li a {
@@ -55,4 +72,10 @@ p {
 .mainNav ul li a {
   color: #091710;
   font-family: var(--font-comfortaa);
+}
+
+@media (max-width: 480px) {
+  .links li a {
+    font-size: 1.25rem;
+  }
 }
