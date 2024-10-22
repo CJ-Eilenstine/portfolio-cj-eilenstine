@@ -1,0 +1,54 @@
+.anchorProj {
+  text-decoration: none;
+}
+
+.parent {
+  max-width: 300px;
+  max-height: 70vh;
+  min-height: 60vh;
+  background-color: var(--primary-color);
+  align-self: center;
+  z-index: 900;
+  border: solid 1px rgba(0, 0, 0, 0.5);
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+
+  padding: 1em;
+  transition: scale 0.5s, border-width 0.5s, border-color 0.5s;
+  border-radius: 15px;
+
+  font-family: var(--font-comfortaa);
+}
+
+.parent:hover {
+  scale: 1.125;
+  border: 20px solid rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+
+.parent img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 0.5em;
+  border-radius: 15px;
+}
+
+.parent h1 {
+  font-family: var(--font-comfortaa);
+  color: var(--background-color);
+}
+
+.parent p {
+  font-family: var(--font-comfortaa);
+  color: var(--background-color);
+}
+
+.parent a {
+  font-family: var(--font-comfortaa);
+  color: var(--background-color);
+  text-decoration: none;
+}

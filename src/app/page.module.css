@@ -29,7 +29,7 @@
   width: 25vw;
   height: 25vw;
   z-index: 100;
-  background-image: url(../app/images/profile-pic2.jpg);
+  background-image: url(../images/profile-pic2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -39,6 +39,14 @@
 
 .profilePic:hover {
   transform: scale(1.2);
+}
+
+.skills {
+  max-width: 30em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 @media (max-width: 810px) {

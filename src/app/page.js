@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import styles from "./page.module.css";
+import SkillBox from "@/components/skill";
 
 export default function Home() {
   return (
@@ -10,13 +11,20 @@ export default function Home() {
         <div className={styles.bio}>
           <h1>
             I am CJ Eilenstine, an aspiring web developer and designer. With
-            skills in back and front end development,
+            skills in back and front end development.
           </h1>
           <h1>
-            I enjoy a multitude of hobbies such as gaming, bouldering, and
-            reading. I enjoy playing Elden Ring a lot and reading Brandon
-            Sanderson books.
+            My journey started with entering college and switching majors to
+            something I had no clue about, Web Development.
           </h1>
+          <div className={styles.skills}>
+            <SkillBox skill={"JavaScript"}></SkillBox>
+            <SkillBox skill={"CSS"}></SkillBox>
+            <SkillBox skill={"JQuery"}></SkillBox>
+            <SkillBox skill={"Php"}></SkillBox>
+            <SkillBox skill={"Figma"}></SkillBox>
+            <SkillBox skill={"Next.js"}></SkillBox>
+          </div>
         </div>
         <div className={styles.profilePic}></div>
       </div>
