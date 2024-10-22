@@ -10,10 +10,10 @@
 
   transition: border 0.3s;
 
-  background-color: var(--accent-color);
+  background-color: var(--primary-color);
   color: var(--background-color);
 }
 
 .skillBox:hover {
-  border: solid 3px var(--primary-color);
+  border: solid 3px var(--accent-color);
 }
