@@ -10,6 +10,7 @@
   justify-content: space-between;
   padding-left: 4em;
   padding-right: 4em;
+  padding-top: 1.625em;
 }
 
 .bio {
@@ -22,7 +23,7 @@
 
 .bio h1 {
   font-family: var(--font-comfortaa);
-  font-size: 2.5vw;
+  font-size: 2vw;
 }
 
 .profilePic {

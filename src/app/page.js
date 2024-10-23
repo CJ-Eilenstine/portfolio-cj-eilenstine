@@ -15,7 +15,10 @@ export default function Home() {
           </h1>
           <h1>
             My journey started with entering college and switching majors to
-            something I had no clue about, Web Development.
+            something I had no clue about, Web Development. So far I have gained
+            skills working with JavaScript, Sass, JQuery, etc. I now am working
+            with different frameworks and have been to a few conferences
+            already.
           </h1>
           <div className={styles.skills}>
             <SkillBox skill={"JavaScript"}></SkillBox>

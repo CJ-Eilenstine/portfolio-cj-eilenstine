@@ -3,6 +3,7 @@
 }
 
 .parent {
+  position: relative;
   max-width: 300px;
   max-height: 70vh;
   min-height: 60vh;
@@ -22,6 +23,7 @@
   border-radius: 15px;
 
   font-family: var(--font-comfortaa);
+  /* right: -1500px; */
 }
 
 .parent:hover {
