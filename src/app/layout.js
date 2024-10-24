@@ -1,6 +1,7 @@
 import { Analytics } from "@vercel/analytics/react";
 import localFont from "next/font/local";
 import "./globals.css";
+import Nav from "@/components/nav";
 
 const comfortaa = localFont({
   src: "./fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf",
@@ -17,21 +18,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${comfortaa.variable}`}>
-        <nav className="mainNav">
-          <ul className="name">
-            <li>
-              <a href="/">CJ Eilenstine</a>
-            </li>
-          </ul>
-          <ul className="links">
-            <li>
-              <a href="/projects">Projects</a>
-            </li>
-            <li>
-              <a href="/contact">Contact</a>
-            </li>
-          </ul>
-        </nav>
+        <Nav />
         {children}
       </body>
     </html>

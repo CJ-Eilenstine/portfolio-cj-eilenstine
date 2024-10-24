@@ -21,6 +21,7 @@
   padding: 1em;
   transition: scale 0.5s, border-width 0.5s, border-color 0.5s;
   border-radius: 15px;
+  margin-right: 5em;
 
   font-family: var(--font-comfortaa);
   /* right: -1500px; */
