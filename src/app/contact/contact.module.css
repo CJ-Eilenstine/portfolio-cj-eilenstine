@@ -73,5 +73,13 @@
 
 .contactMain button:hover {
   outline: solid 10px rgba(163, 217, 218, 0.5);
-  transition: outline 0.5s ease;
 }
+
+/* @keyframes outerWall {
+  0% {
+    outline: none;
+  }
+  100% {
+    outline: solid 10px rgba(163, 217, 218, 0.5);
+  } */
+/* } */
