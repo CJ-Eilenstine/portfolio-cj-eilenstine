@@ -1,0 +1,77 @@
+.contactMain {
+  width: 100%;
+  height: 88vh;
+  background-color: var(--background-color);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contactMain h1 {
+  color: var(--primary-color);
+  font-family: var(--font-comfortaa);
+  transition: color 0.5s ease;
+}
+
+.contactMain h1:hover {
+  color: var(--secondary-color);
+}
+
+.contactMain input {
+  border: solid 2px var(--secondary-color);
+
+  margin-bottom: 16px;
+  width: 20em;
+  padding: 0.625rem;
+  font-family: var(--font-comfortaa);
+  transition: border 0.5s ease;
+  border-radius: 1rem;
+}
+
+.contactMain input:focus {
+  outline: none;
+  border: solid 2px var(--primary-color);
+}
+
+.contactMain input:hover {
+  border: solid 2px var(--primary-color);
+}
+
+.contactMain textarea {
+  border: solid 2px var(--secondary-color);
+
+  margin-bottom: 24px;
+  width: 20em;
+  height: 10em;
+  padding: 0.625rem;
+  font-family: var(--font-comfortaa);
+  transition: border 0.5s ease;
+  border-radius: 1rem;
+}
+
+.contactMain textarea:focus {
+  outline: none;
+  border: solid 2px var(--primary-color);
+}
+
+.contactMain textarea:hover {
+  border: solid 2px var(--primary-color);
+}
+
+.contactMain button {
+  border: solid 2px var(--secondary-color);
+  height: 2.125rem;
+  width: 10rem;
+  border-radius: 1rem;
+  background-color: var(--primary-color);
+  font-family: var(--font-comfortaa);
+  transition: outline 0.5s ease;
+  outline: none;
+}
+
+.contactMain button:hover {
+  outline: solid 10px rgba(163, 217, 218, 0.5);
+  transition: outline 0.5s ease;
+}
