@@ -28,7 +28,7 @@
 }
 
 .parent:hover {
-  scale: 1.125;
+  scale: 1.035;
   border: 8px solid rgba(0, 0, 0, 0.5);
   border-radius: 15px;
 }
@@ -55,4 +55,17 @@
   font-family: var(--font-comfortaa);
   color: var(--background-color);
   text-decoration: none;
+}
+
+.projectLinks {
+  width: 5em;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.projectLinks i {
+  scale: 1.5;
+  color: var(--background-color);
 }

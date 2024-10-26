@@ -68,18 +68,25 @@
   background-color: var(--primary-color);
   font-family: var(--font-comfortaa);
   transition: outline 0.5s ease;
-  outline: none;
+  /* outline: none; */
 }
 
 .contactMain button:hover {
   outline: solid 10px rgba(163, 217, 218, 0.5);
 }
 
-/* @keyframes outerWall {
-  0% {
-    outline: none;
-  }
-  100% {
-    outline: solid 10px rgba(163, 217, 218, 0.5);
-  } */
-/* } */
+.socials {
+  margin-top: 16px;
+  max-width: 5em;
+  min-width: 5em;
+  height: 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.socials i {
+  color: var(--primary-color);
+  scale: 1.5;
+}
