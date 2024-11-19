@@ -1,11 +1,11 @@
 .skillBox {
-  min-width: 7rem;
-  min-height: 2.5rem;
+  min-width: 5rem;
+  min-height: 1.625rem;
   border: 3px solid white;
   border-radius: 15px;
   padding: 0.5rem;
   margin: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.125rem;
   font-family: var(--font-comfortaa);
 
   transition: border 0.3s;

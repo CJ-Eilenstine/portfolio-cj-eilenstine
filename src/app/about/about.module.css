@@ -1,0 +1,24 @@
+.background {
+  min-height: 88vh;
+  width: 100vw;
+
+  background-color: var(--background-color);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.background h1 {
+  color: var(--text-color);
+  font-family: var(--font-comfortaa);
+  text-align: center;
+}
+
+.background p {
+  color: var(--text-color);
+  font-family: var(--font-comfortaa);
+  text-align: center;
+}
