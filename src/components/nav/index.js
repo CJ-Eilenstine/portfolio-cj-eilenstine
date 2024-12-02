@@ -5,56 +5,43 @@ import navStyles from "./nav.module.css";
 import Link from "next/link";
 
 export default function Nav() {
-  // State to manage mobile menu toggle
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
-  // Function to toggle mobile menu
-  const toggleMobileMenu = () => {
-    setIsMobileMenuOpen(!isMobileMenuOpen);
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
   };
 
   return (
     <nav className={navStyles.mainNav}>
-      {/* Site name or logo */}
-      <ul className={navStyles.name}>
+      {/* Site name/logo */}
+      <div className={navStyles.brand}>
+        <Link href="/">CJ Eilenstine</Link>
+      </div>
+
+      {/* Desktop navigation links */}
+      <ul className={`${navStyles.navLinks} ${isOpen ? navStyles.open : ""}`}>
         <li>
-          <Link href="/">CJ Eilenstine</Link>
+          <Link href="/about">About</Link>
+        </li>
+        <li>
+          <Link href="/projects">Projects</Link>
+        </li>
+        <li>
+          <Link href="/contact">Contact</Link>
         </li>
       </ul>
 
       {/* Hamburger menu button */}
       <button
         className={navStyles.hamburger}
-        onClick={toggleMobileMenu}
-        aria-label="Toggle navigation menu"
+        onClick={toggleMenu}
+        aria-label="Toggle navigation"
+        aria-expanded={isOpen}
       >
         <span className={navStyles.bar}></span>
         <span className={navStyles.bar}></span>
         <span className={navStyles.bar}></span>
       </button>
-
-      {/* Navigation links */}
-      <ul
-        className={`${navStyles.links} ${
-          isMobileMenuOpen ? navStyles.mobileMenuOpen : ""
-        }`}
-      >
-        <li>
-          <Link href="/about" onClick={() => setIsMobileMenuOpen(false)}>
-            About
-          </Link>
-        </li>
-        <li>
-          <Link href="/projects" onClick={() => setIsMobileMenuOpen(false)}>
-            Projects
-          </Link>
-        </li>
-        <li>
-          <Link href="/contact" onClick={() => setIsMobileMenuOpen(false)}>
-            Contact
-          </Link>
-        </li>
-      </ul>
     </nav>
   );
 }
