@@ -5,6 +5,7 @@
 .parent {
   position: relative;
   max-width: 300px;
+  min-width: 200px;
   max-height: 70vh;
   min-height: 70vh;
   background-color: var(--primary-color);
@@ -22,6 +23,8 @@
   transition: scale 0.5s, border-width 0.5s, border-color 0.5s;
   border-radius: 15px;
   margin-right: 5em;
+  margin-top: 3em;
+  margin-bottom: 3em;
 
   font-family: var(--font-comfortaa);
   /* right: -1500px; */
