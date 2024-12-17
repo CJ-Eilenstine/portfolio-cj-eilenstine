@@ -10,8 +10,7 @@
 
 .wave {
   position: absolute;
-  overflow-x: hidden;
-  overflow-y: auto;
+  overflow: hidden;
   left: 0;
   /* top: 12vh; */
   width: 100%;
