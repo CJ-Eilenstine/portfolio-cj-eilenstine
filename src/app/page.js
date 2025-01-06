@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import styles from "./page.module.css";
+import Link from "next/link";
 import SkillBox from "@/components/skill";
 
 export default function Home() {
@@ -24,9 +25,14 @@ export default function Home() {
               <SkillBox skill={"Php"}></SkillBox>
               <SkillBox skill={"Figma"}></SkillBox>
               <SkillBox skill={"Next.js"}></SkillBox>
+              <SkillBox skill={"Godot"}></SkillBox>
+              <SkillBox skill={"Python"}></SkillBox>
+              <SkillBox skill={"Reading"}></SkillBox>
             </div>
           </div>
-          <div className={styles.profilePic}></div>
+          <Link href={"./about"}>
+            <div className={styles.profilePic}></div>
+          </Link>
         </div>
       </section>
     </main>

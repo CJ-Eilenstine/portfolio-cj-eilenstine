@@ -21,6 +21,13 @@ export default function Projects() {
           href="https://group-project1-n-317.vercel.app/"
           git="https://github.com/jago-1009/GroupProject1-N-317"
         ></Project>
+        <Project
+          img="/archer.png"
+          title="Archer in Training"
+          desc="Small little game made in Godot about archery. You progress through three levels and try your best to hit the targets."
+          href="https://egguterra.itch.io/archer-in-training"
+          git="https://github.com/blazeninja/AltCtrl"
+        ></Project>
       </div>
     </main>
   );

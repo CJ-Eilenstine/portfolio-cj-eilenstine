@@ -6,6 +6,12 @@
 
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: flex-start;
   flex-wrap: wrap;
+}
+
+@media (max-width: 825px) {
+  .background {
+    justify-content: center;
+  }
 }
