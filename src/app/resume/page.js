@@ -3,14 +3,17 @@
 import contactStyles from "./contact.module.css";
 import Link from "next/link";
 
-export default function Contact() {
+export default function Resume() {
   return (
     <main className={contactStyles.contactMain}>
-      <h1>Contact</h1>
-      <input type="name" placeholder="Name"></input>
-      <input type="email" placeholder="Email"></input>
-      <textarea placeholder="Message"></textarea>
-      <button>Submit</button>
+      <h1>Resume</h1>
+      <iframe src="/Christian Eilenstine Resume.pdf" />
+      <a
+        href="/Christian Eilenstine Resume.pdf"
+        download="Christian_Eilenstine_Resume.pdf"
+      >
+        Download Resume
+      </a>
       <div className={contactStyles.socials}>
         <Link href={"https://github.com/CJ-Eilenstine"} target="_blank">
           <i className="fa-brands fa-github"></i>

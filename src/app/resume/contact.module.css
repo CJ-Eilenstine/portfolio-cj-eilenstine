@@ -1,12 +1,35 @@
 .contactMain {
   width: 100%;
-  height: 88vh;
+  min-height: 88vh;
   background-color: var(--background-color);
 
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.contactMain iframe {
+  width: 600px;
+
+  height: 600px;
+
+  margin-bottom: 1rem;
+}
+
+.contactMain a {
+  font-size: 1.25rem;
+  font-family: var(--font-comfortaa);
+  text-decoration: none;
+  color: var(--primary-color);
+  transition: color 0.3s ease;
+}
+
+.contactMain a:hover {
+  color: var(--text-color);
 }
 
 .contactMain h1 {

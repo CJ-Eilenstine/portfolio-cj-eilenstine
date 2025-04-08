@@ -27,7 +27,7 @@ export default function Nav() {
           <Link href="/projects">Projects</Link>
         </li>
         <li>
-          <Link href="/contact">Contact</Link>
+          <Link href="/resume">Resume</Link>
         </li>
       </ul>
 
